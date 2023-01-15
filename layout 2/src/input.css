@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer Componenets {
+  .bg-grad {
+    z-index: 0;
+    background: linear-gradient(to bottom, #dfdfdf, #6b6968);
+  }
+
+  .bg-partition {
+    z-index: -1;
+    background-color: #797876;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 0);
+  }
+
+  .main {
+    background-color: #fcfcfd;
+  }
+
+  .about {
+    background-color: #21242a;
+  }
+  .contact {
+    background-color: #3c4045;
+  }
+
+  .transparent-border {
+    border-top: 1px solid red;
+  }
+}
